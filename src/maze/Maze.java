@@ -9,7 +9,7 @@ public class Maze implements Cloneable {
     public static final Character START = 's';
     public static final Character END = 'f';
     public static final Character TRAVERSABLE = ' ';
-    public static final Character PATH = '.';
+    public static final Character PATH = '+';
     public static final Character BAD = 'x';
 
     protected List<List<Character>> maze = new ArrayList<List<Character>>();
