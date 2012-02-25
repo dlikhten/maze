@@ -37,6 +37,7 @@ Enjoy!
 
 
 However my solution removes some assumptions, as they were not needed for my solution:
+
 * The maze may be of any shape
 * There may be no solution, in which case "No solution" is printed
 * There may be as many cycles as you want. However as long as a solution exists, a path must be determined.
